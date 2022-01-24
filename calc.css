@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    background-color: grey;
+}
+form{
+   color: greenyellow;
+   font-size: 40px;
+   font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+div.info{
+    font-size: 25px;
+   font-family: sans-serif;
+   color: rgba(10, 11, 15, 0.973);
+   display: flex;
+   justify-content: center;
+}
+.res{
+    display: flex;
+    justify-content: center;
+}
+#calc{
+    background-color: rgb(122, 207, 218);
+    border: transparent;
+    font-size: 40px;
+}
+#poids{
+    color: green;
+    font-size: 40px;
+}
+#taille{
+    color: green;
+    font-size: 40px;
+}

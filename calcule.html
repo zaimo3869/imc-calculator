@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./calc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:wght@100&family=Shrikhand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="info" >IMC < 16 : maigreur sévère
+    IMC compris entre 16 et 16,99 : minceur modérée <br>
+    IMC compris entre 17 et 18,49 : minceur légère <br>
+    IMC compris en 18,5 et 24,99 : poids normal <br>
+    IMC> 25 (compris entre 25 et 29,99) : surpoids <br>
+    IMC>30 (compris entre 30 et 34,99) : obésité légère ou modérée <br>
+    IMC>35 (compris entre 35 et 39,99) : obésité dite sévère (de classe 2)  <br>
+    IMC>40 : obésité dite massive ou morbide (de classe 3) <br></div>
+    <form method="get" class="cart__order__form">
+        <div class="InfoDocument">
+          <label for="firstName">Poids en Kg: </label>
+          <input type="text" name="firstName" placeholder="Exemple : 65" id="poids" required>
+          <p id="firstNameErrorMsg"><!-- ci est un message d'erreur --></p>
+        </div>
+        <div class="InfoDocument">
+          <label for="lastName">Taille en M: </label>
+          <input type="text" name="lastName" placeholder="Exemple : 1.70" id="taille" required>
+          <p id="lastNameErrorMsg"></p>
+        </div>
+        
+        <div class="cart__order__form__submit">
+          <input type="submit" value="Calculez !" id="calc">
+        </div><br>
+        <div id="res">Résultat : </div>
+      </form>
+      
+      
+</body>
+<script src="calcule.js"></script>
+</html>
